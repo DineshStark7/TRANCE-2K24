@@ -1981,3 +1981,19 @@ section {
   color: #ffff;
   text-transform: uppercase;
 }
+
+.video-title{
+  color:#42275a;
+  font-size: 2rem;
+}
+
+.video-item{
+  border-radius: 15px;
+}
+
+.carousel-item{
+  border-radius: 15px;
+}
+.carousel-radius{
+  border-radius: 15px;
+}
