@@ -1997,3 +1997,14 @@ section {
 .carousel-radius{
   border-radius: 15px;
 }
+.new-events{
+  display:flex;
+  justify-content: space-around;
+
+}
+.event-image{
+  border-radius: 15px;
+  height:80vh;
+  width:30vw;
+  margin:20px
+}
