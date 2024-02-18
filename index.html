@@ -60,14 +60,26 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
 
           <div class="timer-container">
-            <div class="timer-item" id="days"></div>
-            <div class="timer-item" id="hours"></div>
-            <div class="timer-item" id="minutes"></div>
-            <div class="timer-item" id="seconds"></div>
+            <div class="d-flex flex-column justify-content-center align-items-center m-1">
+              <div class="timer-item" id="days"></div>
+              <span class="timer-text">Days</span>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center m-1">
+              <div class="timer-item" id="hours"></div>
+              <span class="timer-text">Hours</span>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center m-1">
+              <div class="timer-item" id="minutes"></div>
+              <span class="timer-text">Minutes</span>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center m-1">
+              <div class="timer-item" id="seconds"></div>
+              <span class="timer-text">Seconds</span>
+            </div>
           </div>
-                            
 
           <script>
+
             // Set the date we're counting down to
             var countDownDate = new Date("feb 24, 2024 09:00:00").getTime();
             
@@ -98,9 +110,9 @@
                 document.getElementById("demo").innerHTML = "Lets rock";
               }
             }, 1000);
-            </script>
 
-          
+          </script>
+
           <h1>Welcome Elegants</h1>
           <h2>It’s not just about IDEAS it’s about making IDEAS happen to do it!</h2>
           <h2>Mark the Date : 24-02-2024</h2>
@@ -329,10 +341,8 @@
    <section id="newevents" class="section-title" data-aos="fade-up">
     <h2>Culturals</h2> 
       <div class="new-events" data-aos="fade-up">
-        <picture>
           <img class="event-image" src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/new-events%2FIMG-20240215-WA0008.jpg?alt=media&token=ee86eaa5-abd1-42ac-b8e7-df6e26cdb2c2" alt="Event Image">
           <img class="event-image" src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/new-events%2FIMG-20240215-WA0009.jpg?alt=media&token=387673c8-df77-4195-b331-b700074011ba" alt="Event Image">
-        </picture>
       </div>
 
    </section>
@@ -503,12 +513,12 @@
 
             
             <div class="col-12 d-flex flex-row justify-content-center">
-              <li data-filter="">All</li>
+              <li data-filter="*" class="filter-active">All</li>
             </div>  
           
          
             <div class="col-12 col-md-6">
-              <li data-filter=".filter-app" class="filter-active">Technogeek</li>
+              <li data-filter=".filter-app">Technogeek</li>
               <li data-filter=".filter-card">Rejuvenate</li>
               <li data-filter=".filter-web">Art gallery</li>
             </div>
@@ -524,244 +534,489 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/1.JPG?alt=media&token=2a541351-5a8a-4ced-890c-96658df2bde9" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/events/1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/1.JPG?alt=media&token=2a541351-5a8a-4ced-890c-96658df2bde9" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"></a>
+              <a href="assets/img/events/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/2.JPG?alt=media&token=1856d1c4-7403-4def-8d9d-5cbd4670392c" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/events/2.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/2.JPG?alt=media&token=1856d1c4-7403-4def-8d9d-5cbd4670392c" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"></a>
+              <a href="assets/img/events/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/3.JPG?alt=media&token=b51029de-dd92-4aa2-9bc7-9038c6035ea1" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/events/3.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/3.JPG?alt=media&token=b51029de-dd92-4aa2-9bc7-9038c6035ea1" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"></a>
+              <a href="assets/img/events/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/4.JPG?alt=media&token=1d24be5f-5327-4830-b375-d2ca109e2d66" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/events/4.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/4.JPG?alt=media&token=1d24be5f-5327-4830-b375-d2ca109e2d66" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 4"></a>
+              <a href="assets/img/events/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/5.JPG?alt=media&token=19384246-fbf5-4918-8255-b79f15471d68" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/events/5.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/5.JPG?alt=media&token=19384246-fbf5-4918-8255-b79f15471d68" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 5"></a>
+              <a href="assets/img/events/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/events/6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/events/7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/events/8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/events/9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/events/10.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 4"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/11.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 4"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/12.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/13.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 5"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/14.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 4"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/15.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 6"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/16.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 5"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/17.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 5"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/18.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 7"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/19.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/19.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 6"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/20.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 6"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/events/21.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/21.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 8"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/22.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/22.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 7"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/23.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/23.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 7"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/24.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/24.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 9"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/25.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/25.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 8"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/26.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/26.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 8"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/27.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/27.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 10"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/28.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/28.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 9"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/29.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/29.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 9"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/30.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/30.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 11"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/31.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/31.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 10"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/32.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/32.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 10"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/33.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/33.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 12"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/34.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/34.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 11"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
+            <div class="portfolio-img"><img src="assets/img/events/35.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/35.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 11"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/36.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/36.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 13"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/37.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/37.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 12"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/38.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/38.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 12"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/39.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/39.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 14"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/40.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/40.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 13"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/41.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/41.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 13"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/42.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/42.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 15"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/43.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/43.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 14"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/44.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/44.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 14"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/45.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/45.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 16"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/46.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/46.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 15"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/47.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/47.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 15"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/48.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/48.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 17"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/49.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/49.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 16"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/50.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/50.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 16"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/51.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/51.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 18"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/52.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/52.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 17"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/53.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/53.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 17"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/events/54.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/54.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 19"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/55.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/55.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 18"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/56.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/56.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 18"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/57.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/57.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 20"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/58.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/58.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 19"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/59.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/59.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 19"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/60.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/60.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 21"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
+            <div class="portfolio-img"><img src="assets/img/events/61.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/61.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 20"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/62.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/62.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 20"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/63.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/63.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 22"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/64.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/64.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 21"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/65.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/65.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 21"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/66.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/66.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 23"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/67.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/67.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 22"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/68.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/68.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 22"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
+            <div class="portfolio-img"><img src="assets/img/events/69.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <a href="assets/img/events/69.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 24"></a>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/6.JPG?alt=media&token=656fffbf-3fb9-4911-944b-ac9682d53fc8" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/6.JPG?alt=media&token=656fffbf-3fb9-4911-944b-ac9682d53fc8" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 6"></a>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/12.JPG?alt=media&token=742cd266-2c7a-4ff4-9e49-72cca15fe1fb" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/12.JPG?alt=media&token=742cd266-2c7a-4ff4-9e49-72cca15fe1fb" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 12"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/13.JPG?alt=media&token=f703e584-b990-4e45-829c-2c5730683c98" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/13.JPG?alt=media&token=f703e584-b990-4e45-829c-2c5730683c98" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 13"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/14.JPG?alt=media&token=e0525a0d-e7a8-48c5-a3b9-14f8f5dfd9dd" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/14.JPG?alt=media&token=e0525a0d-e7a8-48c5-a3b9-14f8f5dfd9dd" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 14"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/15.JPG?alt=media&token=03a87654-be9d-4d42-a098-b50bcf26ae08" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/15.JPG?alt=media&token=03a87654-be9d-4d42-a098-b50bcf26ae08" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 15"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/16.JPG?alt=media&token=add628e8-9583-406b-8bc9-dfefad19a711" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/16.JPG?alt=media&token=add628e8-9583-406b-8bc9-dfefad19a711" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 16"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/17.JPG?alt=media&token=00c275fa-4da3-4122-8261-3905ca934708" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/17.JPG?alt=media&token=00c275fa-4da3-4122-8261-3905ca934708" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 17"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/23.JPG?alt=media&token=04fecad5-cb65-45b8-8517-40b4e52607b3" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/23.JPG?alt=media&token=04fecad5-cb65-45b8-8517-40b4e52607b3" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 23"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/24.JPG?alt=media&token=5c3a2ae9-14cb-40f3-9acb-f72f835644d9" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/24.JPG?alt=media&token=5c3a2ae9-14cb-40f3-9acb-f72f835644d9" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 24"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/25.JPG?alt=media&token=d03edf76-c094-4671-8264-91addbe04cfc" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/25.JPG?alt=media&token=d03edf76-c094-4671-8264-91addbe04cfc" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 25"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/26.JPG?alt=media&token=6c22044d-4cd7-4718-aadf-770ef312e01c" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/26.JPG?alt=media&token=6c22044d-4cd7-4718-aadf-770ef312e01c" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 26"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-and">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/27.JPG?alt=media&token=fe18176d-8ce2-40a4-aaad-80ba7ddf291b" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/27.JPG?alt=media&token=fe18176d-8ce2-40a4-aaad-80ba7ddf291b" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 27"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/36.JPG?alt=media&token=4c379b99-2578-44a6-944e-f3d776f6adcd" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/36.JPG?alt=media&token=4c379b99-2578-44a6-944e-f3d776f6adcd" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 36"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/37.JPG?alt=media&token=77d20ff9-c45a-4292-9d5c-8a5e6318eb27" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/37.JPG?alt=media&token=77d20ff9-c45a-4292-9d5c-8a5e6318eb27" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 37"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/38.JPG?alt=media&token=6bff4be2-02fb-4948-a825-60b6dec5fcfd" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/38.JPG?alt=media&token=6bff4be2-02fb-4948-a825-60b6dec5fcfd" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 38"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/39.JPG?alt=media&token=1e791ee7-de13-42d3-9dc0-c8f09c195bb9" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/39.JPG?alt=media&token=1e791ee7-de13-42d3-9dc0-c8f09c195bb9" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 39"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/40.JPG?alt=media&token=1d9d380a-118c-4ab4-b931-6009a7440bab" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/40.JPG?alt=media&token=1d9d380a-118c-4ab4-b931-6009a7440bab" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 40"></a>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/41.JPG?alt=media&token=4447f124-a755-4f1f-b3a5-b9a2cd0b5230" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/41.JPG?alt=media&token=4447f124-a755-4f1f-b3a5-b9a2cd0b5230" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 41"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/42.JPG?alt=media&token=2424248a-a1ce-443a-bf45-182e7c651efe" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/42.JPG?alt=media&token=2424248a-a1ce-443a-bf45-182e7c651efe" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 42"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/55.JPG?alt=media&token=ff0d93d1-cd7a-46ee-b2e9-d88a87471a40" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/55.JPG?alt=media&token=ff0d93d1-cd7a-46ee-b2e9-d88a87471a40" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 55"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/56.JPG?alt=media&token=e77179d4-54c9-45c5-af52-ae4a0c6e3768" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/56.JPG?alt=media&token=e77179d4-54c9-45c5-af52-ae4a0c6e3768" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 56"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/57.JPG?alt=media&token=98cdadea-3ba4-44d4-a685-e79d40091417" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/57.JPG?alt=media&token=98cdadea-3ba4-44d4-a685-e79d40091417" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 57"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/58.JPG?alt=media&token=ac5aa2be-b2cc-4ac4-bf04-cfadd33a0e43" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/58.JPG?alt=media&token=ac5aa2be-b2cc-4ac4-bf04-cfadd33a0e43" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 58"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-or">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/59.JPG?alt=media&token=6fa6a8c8-7664-4e25-b406-2c8106b706a7" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/59.JPG?alt=media&token=6fa6a8c8-7664-4e25-b406-2c8106b706a7" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 59"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/62.JPG?alt=media&token=4ad5c968-3f18-4e0e-ad03-fbb545be2b3c" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/62.JPG?alt=media&token=4ad5c968-3f18-4e0e-ad03-fbb545be2b3c" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 62"></a>
-            </div>
-          </div>  
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/63.JPG?alt=media&token=7e08cdb8-fdee-4658-8687-f503e3ffab14" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/63.JPG?alt=media&token=7e08cdb8-fdee-4658-8687-f503e3ffab14" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 63"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/64.JPG?alt=media&token=52fa62c1-e111-4add-9afe-537115e919a1" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/64.JPG?alt=media&token=52fa62c1-e111-4add-9afe-537115e919a1" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 64"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/65.JPG?alt=media&token=2e4d26f8-eff6-4ebc-afa7-9dedf469961f" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/65.JPG?alt=media&token=2e4d26f8-eff6-4ebc-afa7-9dedf469961f" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 65"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-not">
-            <div class="portfolio-img"><img src="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/66.JPG?alt=media&token=3dca0154-8a12-4a8c-b441-d03e91c04c8a" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <a href="https://firebasestorage.googleapis.com/v0/b/trance-f83f4.appspot.com/o/66.JPG?alt=media&token=3dca0154-8a12-4a8c-b441-d03e91c04c8a" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 66"></a>
-            </div>
-          </div>
-
-        
         </div>
         
       </div>
